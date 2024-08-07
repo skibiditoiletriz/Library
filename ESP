@@ -49,5 +49,3 @@ game.Workspace.DescendantAdded:Connect(function(i)
         table.insert(Boxes, Box)
     end
 end)
-
-EnableBoxESP()
