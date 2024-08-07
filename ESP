@@ -1,10 +1,10 @@
 local BoxESP = {}
 function BoxESP.Create(Player)
     local Box = Drawing.new("Square")
-    Box.Visible = false
-    Box.Color = Color3.fromRGB(194, 17, 17)
+    Box.Visible = true
+    Box.Color = Color3.fromRGB(173, 216, 230)
     Box.Filled = false
-    Box.Transparency = 0.50
+    Box.Transparency = 0.00
     Box.Thickness = 2
 
     local Updater
@@ -49,5 +49,3 @@ game.Workspace.DescendantAdded:Connect(function(i)
         table.insert(Boxes, Box)
     end
 end)
-	end    
-})
